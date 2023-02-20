@@ -33,3 +33,18 @@
     transform:  translateY(14px);
 }
   
+.open {
+    transform: rotate(90deg);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateX(6px) translateY(6px);
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateX(-6px) translateY(6px);
+}
