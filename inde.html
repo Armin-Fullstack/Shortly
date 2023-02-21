@@ -22,7 +22,7 @@
 <body>
 
     <!-- main container -->
-    <div class="container mx-auto p-6">
+    <div class="relative container mx-auto p-6">
         <!-- nav container -->
         <nav class="flex justify-between items-center">
             <!-- Logo and menu container  -->
@@ -50,7 +50,21 @@
                 <span class="hamburger-bottom"></span>
             </button>
 
+           <!-- mobile menu  -->
+         <ul class="absolute p-6 left-6 top-20 right-6 z-50 hidden lg:hidden text-center
+          bg-darkViolet text-white font-bold
+         space-y-6 rounded-lg">
+             <li class="w-full"><a href="#">Features</a></li>
+             <li class="w-full"><a href="#">Pricing</a></li>
+             <li class="w-full"><a href="#">Resources</a></li>
+             <li class="w-full pt-6 border-t border-gray-400"><a href="#">Login</a></li>
+             <li class="w-full py-3 bg-cyan rounded-full"><a href="#">Sign up</a></li>
+         </ul>
+
         </nav>
+
+         
+
     </div>
 
 </body>
