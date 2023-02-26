@@ -1879,6 +1879,11 @@ video {
   vertical-align: super;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2467,12 +2472,25 @@ video {
     width: 50%;
   }
 
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
