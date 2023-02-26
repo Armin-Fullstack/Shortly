@@ -48,3 +48,7 @@
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateX(-6px) translateY(6px);
 }
+
+.main-container {
+  @apply  p-6 container mx-auto
+}

@@ -1675,6 +1675,11 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
 .bg-cyan {
   --tw-bg-opacity: 1;
   background-color: hsl(180 66% 49% / var(--tw-bg-opacity));
@@ -2320,6 +2325,46 @@ video {
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateX(-6px) translateY(6px);
+}
+
+.main-container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .main-container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .main-container {
+    max-width: 1536px;
+  }
+}
+
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
 }
 
 @media (min-width: 640px) {
