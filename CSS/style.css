@@ -682,6 +682,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2482,6 +2486,10 @@ video {
 
   .lg\:ml-0 {
     margin-left: 0px;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .lg\:flex {
