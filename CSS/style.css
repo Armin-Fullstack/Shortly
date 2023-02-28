@@ -782,6 +782,10 @@ video {
   width: 100%;
 }
 
+.max-w-4xl {
+  max-width: 56rem;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1702,6 +1706,11 @@ video {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
